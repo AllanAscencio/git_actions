@@ -3,4 +3,4 @@
       with:
         role-to-assume: ${{ secrets.IAM_ROLE }}
         role-session-name: AWSSession
-        aws-region: us-east-1
+        aws-region: us-east-2
