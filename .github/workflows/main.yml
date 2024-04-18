@@ -4,3 +4,6 @@
         role-to-assume: ${{ secrets.IAM_ROLE }}
         role-session-name: AWSSession
         aws-region: us-east-2
+permissions:
+        id-token: write # This is required for requesting the JWT  
+        contents: read
